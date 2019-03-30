@@ -10,7 +10,11 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2'
 gem 'sqlite3'
 
+gem 'graphql'
+gem 'uuid'
+
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 

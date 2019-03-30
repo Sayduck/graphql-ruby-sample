@@ -38,3 +38,5 @@ coverage
 dump.rdb
 .python-version
 .ruby-version
+
+/db/*.sqlite3

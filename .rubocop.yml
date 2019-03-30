@@ -1,0 +1,28 @@
+---
+Rails/SkipsModelValidations:
+  Whitelist:
+    - touch
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - "Rakefile"
+    - "**/*.rake"
+    - "spec/**/*.rb"
+    - "config/routes.rb"
+
+AllCops:
+  Exclude:
+    - "db/**/*"
+    - "node_modules/**/*"
