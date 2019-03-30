@@ -1,12 +1,28 @@
 # graphql-ruby-sample
 
-## GraphQL
+## Get started:
 
-`POST http://127.0.0.1:3003/graphql`
+1. Install locally
 
-## Subscriptions
+   ```bash
+   $ git checkout https://github.com/Sayduck/graphql-ruby-sample.git
+   $ cd graphql-ruby-sample
+   $ bundle install
+   ```
 
-`http://127.0.0.1:3003/cable`
+1. Start server
+
+   ```bash
+   $ rails s
+   ```
+
+1. Go to `http://127.0.0.1:3003
+
+   - You should see `{"hello":"world"}`
+
+1. Try in GraphiQL `POST http://127.0.0.1:3003/graphql`
+
+1. Try subscriptions on `http://127.0.0.1:3003/cable`
 
 ### Queries
 
