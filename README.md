@@ -5,7 +5,7 @@
 1. Install locally
 
    ```bash
-   $ git checkout https://github.com/Sayduck/graphql-ruby-sample.git
+   $ git clone https://github.com/Sayduck/graphql-ruby-sample
    $ cd graphql-ruby-sample
    $ bundle install
    ```
@@ -22,7 +22,7 @@
 
 1. Try in GraphiQL `POST http://127.0.0.1:3003/graphql`
 
-1. Try subscriptions on `http://127.0.0.1:3003/cable`
+1. Try subscriptions at `http://127.0.0.1:3003/cable`
 
 ### Queries
 
