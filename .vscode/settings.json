@@ -1,0 +1,85 @@
+{
+  "ruby.lint": {
+    "rubocop": {
+      "forceExclusion": true
+    },
+    "reek": false
+  },
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.maxFilesForSearch": 512000,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "backgroundColor": "#01579B"
+    },
+    {
+      "text": "TODO:",
+      "color": "white",
+      "backgroundColor": "#33691E"
+    },
+    {
+      "text": "FIXME:",
+      "color": "white",
+      "backgroundColor": "#b71c1c"
+    },
+    {
+      "text": "HACK:",
+      "color": "white",
+      "backgroundColor": "#E65100"
+    },
+    {
+      "text": "OPTIMIZE:",
+      "color": "white",
+      "backgroundColor": "#827717"
+    },
+    {
+      "text": "REVIEW:",
+      "color": "white",
+      "backgroundColor": "#4A148C"
+    },
+    {
+      "text": "[NOTE]",
+      "color": "white",
+      "backgroundColor": "#01579B",
+      "isWholeLine": true
+    },
+    {
+      "text": "[TODO]",
+      "color": "white",
+      "backgroundColor": "#33691E",
+      "isWholeLine": true
+    },
+    {
+      "text": "[FIXME]",
+      "color": "white",
+      "backgroundColor": "#b71c1c",
+      "isWholeLine": true
+    },
+    {
+      "text": "[HACK]",
+      "color": "white",
+      "backgroundColor": "#E65100",
+      "isWholeLine": true
+    },
+    {
+      "text": "[OPTIMIZE]",
+      "color": "white",
+      "backgroundColor": "#827717",
+      "isWholeLine": true
+    },
+    {
+      "text": "[REVIEW]",
+      "color": "white",
+      "backgroundColor": "#4A148C",
+      "isWholeLine": true
+    },
+    {
+      "text": "[GRAVEYARD]",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": true
+    }
+  ]
+}
